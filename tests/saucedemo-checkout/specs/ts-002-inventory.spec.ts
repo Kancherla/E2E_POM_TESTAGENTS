@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../pages/LoginPage';
-import { InventoryPage } from '../pages/InventoryPage';
-import { users, products } from '../fixtures/testData';
-import { parsePrice } from '../utils/helpers';
+import { LoginPage } from '../../../src/pages/LoginPage';
+import { InventoryPage } from '../../../src/pages/InventoryPage';
+import { users, products } from '../../../src/fixtures/testData';
+import { parsePrice } from '../../../src/utils/helpers';
 
 test.describe('TS-002: Inventory', () => {
   let loginPage: LoginPage;

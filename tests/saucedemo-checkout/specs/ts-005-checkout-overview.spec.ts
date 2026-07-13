@@ -1,11 +1,11 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../pages/LoginPage';
-import { InventoryPage } from '../pages/InventoryPage';
-import { CartPage } from '../pages/CartPage';
-import { CheckoutStepOnePage } from '../pages/CheckoutStepOnePage';
-import { CheckoutStepTwoPage } from '../pages/CheckoutStepTwoPage';
-import { checkoutInfo, products } from '../fixtures/testData';
-import { parsePrice } from '../utils/helpers';
+import { LoginPage } from '../../../src/pages/LoginPage';
+import { InventoryPage } from '../../../src/pages/InventoryPage';
+import { CartPage } from '../../../src/pages/CartPage';
+import { CheckoutStepOnePage } from '../../../src/pages/CheckoutStepOnePage';
+import { CheckoutStepTwoPage } from '../../../src/pages/CheckoutStepTwoPage';
+import { checkoutInfo, products } from '../../../src/fixtures/testData';
+import { parsePrice } from '../../../src/utils/helpers';
 
 test.describe('TS-005: Checkout Step 2 - Order Overview', () => {
   let loginPage: LoginPage;

@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../pages/LoginPage';
-import { InventoryPage } from '../pages/InventoryPage';
-import { CartPage } from '../pages/CartPage';
-import { users, products } from '../fixtures/testData';
+import { LoginPage } from '../../../src/pages/LoginPage';
+import { InventoryPage } from '../../../src/pages/InventoryPage';
+import { CartPage } from '../../../src/pages/CartPage';
+import { users, products } from '../../../src/fixtures/testData';
 
 test.describe('TS-003: Cart', () => {
   let loginPage: LoginPage;

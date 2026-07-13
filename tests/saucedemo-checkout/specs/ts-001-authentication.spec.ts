@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../pages/LoginPage';
-import { NavigationMenu } from '../components/NavigationMenu';
-import { users, errorMessages } from '../fixtures/testData';
+import { LoginPage } from '../../../src/pages/LoginPage';
+import { NavigationMenu } from '../../../src/components/NavigationMenu';
+import { users, errorMessages } from '../../../src/fixtures/testData';
 
 test.describe('TS-001: Authentication', () => {
   let loginPage: LoginPage;
