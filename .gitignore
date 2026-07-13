@@ -1,0 +1,16 @@
+
+# Playwright
+node_modules/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+/.playwright-mcp/
+
+# VS Code settings (may contain tokens/secrets)
+.vscode/
+
+# Keep test-results markdown reports but ignore binary artifacts
+/test-results/*.xml
+/test-results/*.json
+/test-results/*.zip
